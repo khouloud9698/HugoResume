@@ -1,0 +1,217 @@
+# showcase
+showcase:
+  enable: true
+  title: "Hello, I’m Khouloud."
+  subtitle: "Software Developer"
+  description: "I'm studying at <a target='_blank' href='http://www.isi.rnu.tn/'>Higher Institute of Computer Science</a>. And I am looking for end of studies internship starting from February 2021."
+  image:
+    x: "img/showcase/showcase.png"
+    _2x: "img/showcase/showcase@2x.png"
+  imageMobile:
+    x: "img/showcase/showcase-mobile.jpg"
+
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Contact"
+    URL: "https://www.linkedin.com/in/khouloud-hamdi-6b3a27197/"
+
+  socialLinks:
+    - icon: "linkedin"
+      URL: "https://www.linkedin.com/in/khouloud-hamdi-6b3a27197/"
+
+    - icon: "github"
+      URL: "https://github.com/khouloud9698"
+
+    - icon: "twitter"
+      URL: "https://twitter.com/khouloudhamdi17"
+
+    - icon: "behance"
+      URL: "https://www.behance.net/khouloudhamdi"
+
+    - icon: "instagram"
+      URL: "https://www.instagram.com/khoulouud_hamdi/"
+
+    - icon: "facebook"
+      URL: "https://www.facebook.com/Khoulouud.hamdi/"
+
+    - icon: "codepen"
+      URL: "https://codepen.io/khouloudhamdi17"
+
+# about
+about:
+  enable: true
+  title: "Who am I?"
+  content: '<p class="lead">
+    Currently I am a student in fifth year Computer Engineering at the Higher Institute of Computer Science (ISI), specialized in Software Development.
+I am looking for a company that could host me as part of a graduation project internship.
+This internship will be for a duration of 4 to 6 months from February 1st.
+    </p>
+    <p class="lead">
+    I am always open to all offers and motivated to learn about new fields and technologies.
+    But, my area of focus lies in mobile development, big data and blockchain.
+    I spent my last 6 years working on technologies such as Spark, Kafka and MapReduce.
+    I have a strong skills in Java, including work with Kotlin and Angular.
+    I enjoy talking with users to improve the experiences that reach business goals.
+    </p>'
+  button:
+    icon: "icon-smile-fill"
+    btnText: "About Me"
+    URL: "https://www.linkedin.com/in/khouloud-hamdi-6b3a27197/"
+  image:
+    x: "img/who-am-i/whitephoto1.jpg"
+    
+# education
+education:
+  enable: true
+  title: "Education"
+  items:
+    - university: "Higher Institute of Computer Science, Tunis ElManar University"
+      year: "Sept. 2018-Present"
+      degree: "Engineer's degree, Computer Software Engineering"
+      
+    - university: "Faculty of Mathematical, Physical and Natural Sciences, Tunis El-Manar University"
+      year: "Sept. 2015-June 2018"
+      degree: "Bachelor of Science, Computer Science"
+
+    - university: "School El Attarine"
+      year: "Sept. 2011-June 2015"
+      degree: "Baccalaureate Degree, Experimental sciences"
+
+# experience
+experience:
+  enable: true
+  title: "Experience"
+  description: "I am quick learner who likes to acquire new skills in different areas. I develop digital products to help businesses and improve people's lives."
+  button:
+    icon: "icon-linkedin-fill"
+    btnText: "Linkedin"
+    URL: "https://www.linkedin.com/in/khouloud-hamdi-6b3a27197/"
+  button2:
+    icon: "icon-profile-fill"
+    btnText: "Download My Resume"
+    URL: "img/who-am-i/resume.pdf"
+
+  items:
+    - title: "Mobile Developer Intern"
+      company: "Orange Tunisia in partnership with Google || July 2020-Sep 2020"
+      duration: "Develop a mobile application that allows the management of a smart sport coach at home. This coach allows the analysis and the real-time posture
+correction and interaction with the clients using voice commands."
+
+    - title: "Front-End Developer Intern"
+      company: "Financial Intelligence Solutions || Jun 2019-Aug 2019"
+      duration: "Develop an application that enables analysis of the activities of the financial and non-financial sectors for
+      the fight against money laundering and terrorist financing for the FATF organization."
+
+    - title: "Data Analyst Intern"
+      company: "Faculty of sciences of Tunis || Oct 2017 - Jun 2018"
+      duration: "Propose a new approach to community detection in bipartite graphs."
+
+# Client & Work
+client_and_work:
+  title: "Academic projects"
+  enable: true
+
+  clients:
+    - logo:
+        x: "img/clients/angular.png"
+        _2x: "img/clients/angular.png"
+      alt: "Angular"
+
+    - logo:
+        x: "img/clients/spring.png"
+        _2x: "img/clients/spring.png"
+      alt: "Spring boot"
+
+    - logo:
+        x: "img/clients/javfx.png"
+        _2x: "img/clients/javfx.png"
+      alt: "JavaFx"
+
+    - logo:
+        x: "img/clients/nodejs.png"
+        _2x: "img/clients/nodejs.png"
+      alt: "Nodejs"
+
+    - logo:
+        x: "img/clients/heroku.png"
+        _2x: "img/clients/heroku.png"
+      alt: "Heroku"
+
+  works:
+    - title: "FIFA World Cup Qatar 2022"
+      description: "Develop a web application to manage world cup 2022."
+      button:
+        btnText: "Angular 9, Spring Boot, Spring MVC/Security with JWT, MySQL"
+        URL: "#"
+      image:
+        x: "img/works/fifa.png"
+        _2x: "img/works/fifa.png"
+      is_even: true
+
+    - title: "Cinema Booking System"
+      description: "Develop a web application to manage a cinema booking system"
+      button:
+        btnText: "Java, JavaFx"
+        URL: "#"
+      image:
+        x: "img/works/cinema.png"
+        _2x: "img/works/cinema.png"
+      is_even: false
+
+    - title: "Messenger Chatbot"
+      description: "Develop and integrate a messenger chatbot provide data on a topic desired by a user."
+      button:
+        btnText: "NodeJS, Dialogflow, Heroku"
+        URL: "#"
+      image:
+        x: "img/works/chatbot.jpg"
+        _2x: "img/works/chatbot.jpg"
+      is_even: true
+
+# testimonial
+testimonial:
+  enable: true
+  title: "Main interests"
+  items:
+    - name: "Oscar Wilde, Theatre"
+      content: "I regard the theatre as the greatest of all art forms, the most immediate way in which a human being can share with another the sense of what it is to be a human being."
+      image:
+        x: "img/testimonials/daniel-jordan.jpg"
+        _2x: "img/testimonials/daniel-jordan@2x.jpg"
+
+    - name: "Krav Maga"
+      content: "The more you sweat in practice, the less you bleed in battle."
+      image:
+        x: "img/testimonials/jonathan-peters.jpg"
+        _2x: "img/testimonials/jonathan-peters@2x.jpg"
+
+    - name: "Antonio Willis"
+      position: "Cyberse, CEO"
+      content: "In this digital generation where information can be easily obtained within seconds, business cards still have retained their importance in the achievement of increased business exposure and business sales. If your business already has a bunch of printed cards distributed to a number of potential customers and yet."
+      image:
+        x: "img/testimonials/antonio-willis.jpg"
+        _2x: "img/testimonials/antonio-willis@2x.jpg"
+
+# contact
+contact:
+  enable: true
+  title: "Contact"
+  form:
+    method: "POST"
+    action: "#"
+    full_name: "Full Name"
+    email: "Email Address"
+    message: "Type Your Message Here"
+  phone:
+    title: "Phone Number"
+    number: "+216 (28) 745 124"
+  email:
+    title: "Email"
+    email: '<a href="mailto:khouloudhamdi48@gmail.com">khouloudhamdi48@gmail.com</a>'
+  address:
+    title: "Address"
+    address: "Ariana, Tunisia"
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Send Message"
+
